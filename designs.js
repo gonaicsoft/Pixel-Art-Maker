@@ -1,9 +1,8 @@
-// Select color input
-// Select size input
+// Select size input and color value from the html elements involved.
 const heightInput = $('#inputHeight');
 const widthInput = $('#inputWeight');
 const colorInput = $('#colorPicker');
-alert("hello");
+
 // When size is submitted by the user, call makeGrid()
 //makeGrid function that removes previous table and then new grid is built with help of for-loop
 function makeGrid() {
